@@ -9,7 +9,8 @@ RUN apt-get update && \
         cmake \
         curl \
         lbzip2 \
-        python3
+        python3 \
+        build-essential
 
 # Option to use a local clone of the repository
 ARG USE_LOCAL_REPO
