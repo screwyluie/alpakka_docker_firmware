@@ -10,7 +10,8 @@ RUN apt-get update && \
         curl \
         lbzip2 \
         python3 \
-        build-essential
+        build-essential \
+        screen
 
 # Option to use a local clone of the repository
 ARG USE_LOCAL_REPO
