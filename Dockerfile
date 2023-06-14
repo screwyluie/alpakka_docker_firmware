@@ -19,7 +19,7 @@ RUN if [ "$USE_LOCAL_REPO" = "true" ]; then \
         echo "Using local repository"; \
         mkdir -p /alpakka_firmware && \
         cd /alpakka_firmware && \
-        cp -R $LOCAL_REPO_PATH/* . ; \
+        cp -R $LOCAL_REPO_PATH/* ./alpakka_firmware ; \
     else \
         echo "Using remote repository"; \
         git clone https://github.com/inputlabs/alpakka_firmware . ; \
