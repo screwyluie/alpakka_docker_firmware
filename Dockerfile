@@ -6,7 +6,8 @@ RUN apt-get update && \
     apt-get install -y \
         gcc \
         git \
-        cmake
+        cmake \
+        curl
 
 # Option to use a local clone of the repository
 ARG USE_LOCAL_REPO
