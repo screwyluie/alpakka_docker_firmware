@@ -8,7 +8,8 @@ RUN apt-get update && \
         git \
         cmake \
         curl \
-        lbzip2
+        lbzip2 \
+        python3
 
 # Option to use a local clone of the repository
 ARG USE_LOCAL_REPO
