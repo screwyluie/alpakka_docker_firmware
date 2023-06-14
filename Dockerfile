@@ -7,7 +7,8 @@ RUN apt-get update && \
         gcc \
         git \
         cmake \
-        curl
+        curl \
+        lbzip2
 
 # Option to use a local clone of the repository
 ARG USE_LOCAL_REPO
